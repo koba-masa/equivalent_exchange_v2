@@ -23,7 +23,7 @@
 ## サーバー
 
 ```sh
-go run ./cmd/server
+make start_server
 ```
 
 `GET /health` が `{"status":"ok"}` を返します。ポートは環境変数 `PORT` で変更できます（未設定時は `8080`）。
